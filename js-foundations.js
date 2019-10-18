@@ -112,6 +112,7 @@ const theWorstFunction = (arr1, arr2) => {
     maybeEvenWorseFunction(amounts[5],animals[0])
     maybeEvenWorseFunction(amounts[6],animals[0])
   }
+  
 theWorstFunction()
 
 // 5b. STRETCH: Create a function that combines the two variables and updates the animal to be singular if the animal's corresponding number is 1. Expected output: "9 ducks 1 elephant 8 pangolins 16 zebras 5 giraffes 1 penguin 42 llamas"
@@ -132,3 +133,10 @@ const animalCount2 = (arr1, arr2) => {
   )
 }
 console.log(animalCount2(amounts, animals))
+
+var text = 'outside'
+const test = () => {
+  console.log(text)
+  var text = "inside"
+}
+test()
